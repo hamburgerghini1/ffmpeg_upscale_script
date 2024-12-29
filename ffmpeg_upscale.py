@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Directory containing your videos
-video_dir = r"C:\Users\tommi\Videos\Anime\[Anime Time] Gintama Complete Series (001-367+Movies) [BD] [1080p][HEVC 10bit x265][AAC][Eng Sub]"
+video_dir = r"PATH TO VIDEO DIRECTORY"
 
 for file in os.listdir(video_dir):
     if file.endswith(".mkv"):
